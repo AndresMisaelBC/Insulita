@@ -24,6 +24,10 @@
             android:id="@+id/nav_connections"
             android:icon="@drawable/icon_connections"
             android:title="@string/menu_connections" />
+        <item
+            android:id="@+id/nav_Information"
+            android:icon="@drawable/icon_information"
+            android:title="@string/menu_information" />
 
     </group>
 

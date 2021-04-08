@@ -18,6 +18,7 @@
     <string name="menu_notifications">Notificaciones</string>
     <string name="menu_sensors">Sensores</string>
     <string name="menu_connections">Conexiones</string>
+    <string name="menu_information">Información</string>
     <string name="menu_specs">Ficha técnica</string>
     <string name="menu_account">Cuenta</string>
     <string name="menu_settings">Configuración</string>
@@ -30,6 +31,14 @@
     <string name="text_ground">Fragment suelo</string>
     <string name="text_contact">Fragment contáctanos</string>
     <string name="text_connections">Conexiones</string>
+    <string name="text_Information">
+    <p align="justify">
+        <b>Insulina</b><p>La insulina debe ser almacenada a una temperatura de 2 a 8°C.</p>
+        <p>Es importante recordar que la insulina NUNCA debe ser congelada.</p>
+        <p>No debes exponer la insulina a calor excesivo o luz solar directa.</p>
+        <p>En caso de usar lápiz se debe guardar con tapa y sin aguja.</p>
+    </p>
+    </string>
     <string name="text_home">Últimos registros</string>
     <string name="text_settings">Configuración</string>
     <string name="text_policy">
