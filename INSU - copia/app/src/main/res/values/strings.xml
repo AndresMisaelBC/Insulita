@@ -122,10 +122,10 @@
     <string name="tab_water">Agua</string>
     <string name="tab_wind">Ventilación</string>
     <string name="tab_ground">Suelo</string>
-    <string name="parameters_sensor">Párametros</string>
-    <string name="unit_sensor">Unidad</string>
-    <string name="values_sensor">Valores</string>
-    <string name="text_sensor">Sensores Activos</string>
+    <string name="parameters_sensor">Sensor</string>
+    <string name="unit_temp">Temperatura</string>
+    <string name="values_hour">Hora</string>
+    <string name="text_sensor">Estado de Insulina</string>
 
     <string name="btn_irrigate">Regar</string>
     <string name="switch_irrigate">Riego Automático</string>

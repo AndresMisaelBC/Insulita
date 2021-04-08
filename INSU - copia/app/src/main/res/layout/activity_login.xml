@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Insulita.LoginActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_below="@+id/imageView">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="35dp"
+                android:hint="@string/text_login"
+                android:textColorHint="@color/black"
+                android:gravity="left"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="18dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:ems="10"
+                android:hint="@string/text_email"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:ems="10"
+                android:textSize="18dp"
+                android:hint="@string/text_password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+
+        <Button
+            android:id="@+id/btn_ir_recuperar_contrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="120dp"
+            android:background="@android:color/transparent"
+            android:text="@string/text_forgot_password"
+            android:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnLoginGoogle"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="#1976d2"
+                android:text="@string/btn_google"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/icon_google"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent"
+            android:text="@string/text_register_account"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="#1976d2"
+            android:text="@string/btn_login"
+            android:textColor="#FFF"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+    
+
+
+</RelativeLayout>
