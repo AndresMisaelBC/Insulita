@@ -4,6 +4,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
 
+
+
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -25,12 +27,6 @@
     <string name="menu_logout">Cerrar sesión</string>
     <string name="menu_information">Información</string>
 
-    <string name="text_wind">Fragment ventilación</string>
-    <string name="text_water">Fragmet agua</string>
-    <string name="text_ground">Fragment suelo</string>
-    <string name="text_contact">Fragment contáctanos</string>
-    <string name="text_connections">Conexiones</string>
-
 
     <string name="text_Information">
     <p align="justify">
@@ -44,60 +40,7 @@
 
     <string name="text_home">Últimos registros</string>
     <string name="text_settings">Configuración</string>
-    <string name="text_policy">
-        <p align="justify">La presente Política de Privacidad
-        establece los términos en que <b>AgroSmart</b>  usa y protege la información que
-        es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está
-        comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los
-        campos de información personal con la cual usted pueda ser identificado, lo hacemos
-        asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo
-        esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le
-        recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de
-        acuerdo con dichos cambios.</p>\n\n<b>Información que es recogida</b>\n\n<p>Nuestra App
-            podrá recoger información personal por ejemplo: Nombre,  información de contacto
-    como  su dirección de correo electrónica y telefono. Así mismo cuando sea necesario podrá ser
-    requerida información específica para procesar algún pedido o realizar una entrega o
-            facturación.</p>\n\n<b>Uso de la información recogida</b>\n\n<p>Nuestra aplicacion
-            emplea la información con el fin de proporcionar el mejor servicio posible,
-    particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y
-    mejorar nuestros productos y servicios.  Es posible que sean enviados correos electrónicos
-    periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra
-    información publicitaria que consideremos relevante para usted o que pueda brindarle algún
-    beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y
-    podrán ser cancelados en cualquier momento.</p>\n\n<p><b>AgroSmart</b> está altamente
-            comprometido para cumplir con el compromiso de mantener su información segura. Usamos
-            los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no
-            exista ningún acceso no autorizado.</p>\n\n<b>Cookies</b>\n\n<p>Una cookie se refiere a
-            un fichero que es enviado con la finalidad de solicitar permiso para
-     almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces
-      para tener información respecto al tráfico web, y también facilita las futuras recurrente.
-      Otra función que tienen las cookies es que con ellas las web pueden reconocerte
-     individualmente y por tanto brindarte el mejor servicio personalizado de su web.</p>\n\n
-        <p>Nuestra app emplea las cookies para poder identificar las páginas que son visitadas y su
-        frecuencia. Esta información es empleada únicamente para análisis estadístico y después la
-        información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier
-        momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio
-        de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de
-        que usted así lo quiera y la proporcione directamente. Usted puede aceptar o negar el uso de
-        cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve
-        para tener un mejor servicio web. También usted puede cambiar la configuración de su
-        ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos
-     de nuestros servicios.</p>\n\n<b>Enlaces a Terceros</b>\n\n<p>Esta App pudiera contener enlaces
-            a otros sitios que pudieran ser de su interés. Una vez
-        que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre
-        al sitio al que es redirigido y por lo tanto no somos responsables de los términos o
-        privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios
-        están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los
-     consulte para confirmar que usted está de acuerdo con estas.</p>\n\n<b>Control de su información
-            personal</b>\n\n<p>En cualquier momento usted puede restringir la recopilación o el uso
-            de la información personal que es proporcionada a nuestro sitio web.  Cada vez que se le
-            solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la
-            opción de recibir información por correo electrónico.  En caso de que haya marcado la
-            opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier
-            momento.</p>\n\n<p>Esta compañía no venderá, cederá ni distribuirá la información
-            personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez
-            con un orden judicial.</p>\n\n<p>Se reserva el derecho de cambiar los términos de la
-            presente Política de Privacidad en cualquier momento.</p></string>
+
     <string name="text_notifications">Notificaciones</string>
     <string name="text_account">Fragment cuenta</string>
 
@@ -116,19 +59,11 @@
     <string name="check_terms">Eh leido los términos y condiciones</string>
     <string name="btn_register">Regístrarse</string>
 
-    <string name="tab_water">Agua</string>
-    <string name="tab_wind">Ventilación</string>
-    <string name="tab_ground">Suelo</string>
+
     <string name="parameters_sensor">Sensor</string>
     <string name="unit_temp">Temperatura</string>
     <string name="values_hour">Hora</string>
     <string name="text_sensor">Estado de Insulina</string>
-
-    <string name="btn_irrigate">Regar</string>
-    <string name="switch_irrigate">Riego Automático</string>
-
-    <string name="btn_ventilate">Ventilar</string>
-    <string name="switch_ventilate">Ventilado Automático</string>
 
 
     <string name="open">Abrir</string>
@@ -197,12 +132,8 @@
     <string name="settings_information">Información</string>
     <string name="settings_information_description">Versión de aplicación</string>
     <string name="settings_information_description2">1.0.0.1</string>
-    <string name="settings_information_description3">Agro Smart y logotipos son propiedad de Agro Smart</string>
 
-    <string name="home_columna1">Hora</string>
-    <string name="home_columnaAgua">Ph</string>
-    <string name="home_columnaTierra">Sólidos en solución (STD)</string>
-    <string name="home_columnaAire">Dióxido de azufre (SO2)</string>
+
     <string name="home_actual">Actual</string>
     <string name="textViewContact">Contáctanos</string>
     <string name="title_account_settings">Configuración de cuenta</string>

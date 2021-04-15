@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@+id/textViewConnections"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="left"
+                    android:hint="@string/text_register"
+                    android:textColorHint="@color/black"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:ems="10"
+                    android:hint="@string/text_full_name"
+                    android:inputType="textPersonName"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:ems="10"
+                    android:hint="@string/text_email"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:ems="10"
+                    android:hint="@string/text_phone"
+                    android:inputType="text|phone"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:ems="10"
+                    android:hint="@string/text_password"
+                    android:inputType="textPassword"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:ems="10"
+                    android:hint="@string/text_confirm_password"
+                    android:inputType="textPassword"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/check_terms">
+
+                </CheckBox>
+
+                <ProgressBar
+                    android:id="@+id/loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"></ProgressBar>
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#491717"
+                    android:onClick="Registro_Main"
+                    android:text="@string/btn_register"
+                    android:textColor="#FFF"
+                    android:textSize="18sp"
+                    app:backgroundTint="#431919" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

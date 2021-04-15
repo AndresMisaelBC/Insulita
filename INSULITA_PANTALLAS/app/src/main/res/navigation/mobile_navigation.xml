@@ -52,4 +52,14 @@
         android:name="com.example.insulita_pantallas.Configuracion"
         android:label="activity_configuracion"
         tools:layout="@layout/activity_configuracion" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.insulita_pantallas.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registro"
+        android:name="com.example.insulita_pantallas.Registro"
+        android:label="activity_registro"
+        tools:layout="@layout/activity_registro" />
 </navigation>
