@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.insulita_pantallas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.insulita_pantallas.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.insulita_pantallas.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/notificaciones"
+        android:name="com.example.insulita_pantallas.Notificaciones"
+        android:label="activity_notificaciones"
+        tools:layout="@layout/activity_notificaciones" />
+    <activity
+        android:id="@+id/sensores"
+        android:name="com.example.insulita_pantallas.Sensores"
+        android:label="activity_sensores"
+        tools:layout="@layout/activity_sensores" />
+    <activity
+        android:id="@+id/calendario"
+        android:name="com.example.insulita_pantallas.Calendario"
+        android:label="activity_calendario"
+        tools:layout="@layout/activity_calendario" />
+    <activity
+        android:id="@+id/informacion"
+        android:name="com.example.insulita_pantallas.Informacion"
+        android:label="activity_informacion"
+        tools:layout="@layout/activity_informacion" />
+    <activity
+        android:id="@+id/cuenta"
+        android:name="com.example.insulita_pantallas.Cuenta"
+        android:label="activity_cuenta"
+        tools:layout="@layout/activity_cuenta" />
+    <activity
+        android:id="@+id/configuracion"
+        android:name="com.example.insulita_pantallas.Configuracion"
+        android:label="activity_configuracion"
+        tools:layout="@layout/activity_configuracion" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.insulita_pantallas.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registro"
+        android:name="com.example.insulita_pantallas.Registro"
+        android:label="activity_registro"
+        tools:layout="@layout/activity_registro" />
+</navigation>

@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">INSULITA_PANTALLAS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="menu_notifications">Notificaciones</string>
+    <string name="menu_sensors">Sensores</string>
+    <string name="menu_connections">Calendario</string>
+    <string name="menu_specs">Ficha técnica</string>
+    <string name="menu_account">Cuenta</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_policy">Política de privacidad</string>
+    <string name="menu_contact">Contáctanos</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_information">Información</string>
+
+
+    <string name="text_Information">
+    <p align="justify">
+        <b>Insulina</b><p>La insulina debe ser almacenada a una temperatura de 2 a 8°C.</p>
+        <p>Es importante recordar que la insulina NUNCA debe ser congelada.</p>
+        <p>No debes exponer la insulina a calor excesivo o luz solar directa.</p>
+        <p>En caso de usar lápiz se debe guardar con tapa y sin aguja.</p>
+    </p>
+    </string>
+
+
+    <string name="text_home">Últimos registros</string>
+    <string name="text_settings">Configuración</string>
+
+    <string name="text_notifications">Notificaciones</string>
+    <string name="text_account">Fragment cuenta</string>
+
+    <string name="text_login">Iniciar sesión</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_email">Email</string>
+    <string name="text_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_google">Google</string>
+    <string name="text_register_account">No tienes cuenta? Regístrate</string>
+
+    <string name="text_register">Crear cuenta</string>
+    <string name="text_full_name">Nombre completo</string>
+    <string name="text_phone">Teléfono</string>
+    <string name="text_confirm_password">Confirmar contraseña</string>
+    <string name="check_terms">Eh leido los términos y condiciones</string>
+    <string name="btn_register">Regístrarse</string>
+
+
+    <string name="parameters_sensor">Sensor</string>
+    <string name="unit_temp">Temperatura</string>
+    <string name="values_hour">Hora</string>
+    <string name="text_sensor">Estado de Insulina</string>
+
+
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+
+    <string name="login_success">Credenciales validadas</string>
+    <string name="login_error">Error de login</string>
+    <string name="retry">Reintentar</string>
+    <string name="register_success">Registro correcto!</string>
+    <string name="register_error">Error de registro</string>
+
+    <string name="title_activity_register">Registro</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="title_activity_principal">Activity Principal</string>
+
+
+    <string name="text_titleTableConnections">Estado de conexión a internet</string>
+    <string name="text_connectionTable">Conexión</string>
+    <string name="text_spaceTable">Espacio utilizado</string>
+    <string name="text_warningTable">Advertencias</string>
+    <string name="text_logTable">Bitácora</string>
+    <string name="buttonReconnect">Reconectar</string>
+
+    <string name="settings_notifications">Configuración de Notificaciones</string>
+    <string name="settings_seconTitle">Notificaciones que recibes</string>
+    <string name="settings_notifi_medicion">Mediciones de sensores</string>
+    <string name="settings_notifi_conection">Conexión/desconexión</string>
+    <string name="settings_notifi_ofer">Ofertas de la empresa</string>
+    <string name="settings_notifi_loginsin">Inicios de sesión desconocidos</string>
+
+    <string name="settings_copyBack">Copia/Respaldo</string>
+    <string name="settings_seconTitleCopy">Respaldo automático</string>
+    <string name="settings_notifi_geneResp">Generar respaldos de información de manera automática</string>
+
+    <string name="text_from">De:</string>
+    <string name="text_subject">Asunto</string>
+    <string name="text_message">Mensaje</string>
+    <string name="btn_send">Enviar</string>
+
+    <string name="user_name">Nombre</string>
+    <string name="email">Correo</string>
+    <string name="phone">Teléfono</string>
+    <string name="pswd">Contraseña</string>
+
+
+    <string name="settings_notifications_description">Habilitar o desabilitar notificaciones</string>
+    <string name="settings_backup">Copia/respaldo</string>
+    <string name="settings_backup_description">Genera una copia de seguridad de los datos almacenados</string>
+    <string name="settings_account">Cuenta</string>
+    <string name="settings_account_description">Actualiza tu nombre, telefono y direccion de correo electrónico</string>
+
+    <string name="settings_security">Seguridad e inicio de sesión</string>
+    <string name="settings_security_description">Cambia la contraseña y toma otras medidas para proteger tu cuenta</string>
+    <string name="settings_security_title1">Dónde iniciaste sesión</string>
+    <string name="settings_security_title2">Inicio de sesión</string>
+    <string name="settings_security_title3">Autentificación de dos pasos</string>
+    <string name="settings_security_title4">Notificaciones de acceso desconocido</string>
+    <string name="settings_security_description1">Cerrar sesión</string>
+    <string name="settings_security_description2">Cambiar contraseña</string>
+    <string name="settings_security_description3">Usar autenticación de dos pasos</string>
+    <string name="settings_security_description4">App de autenticación</string>
+    <string name="settings_security_description5">Mensaje SMS</string>
+    <string name="settings_security_description6">Recibir alertas de inicio de sesión no autorizados</string>
+
+    <string name="settings_information">Información</string>
+    <string name="settings_information_description">Versión de aplicación</string>
+    <string name="settings_information_description2">1.0.0.1</string>
+
+
+    <string name="home_actual">Actual</string>
+    <string name="textViewContact">Contáctanos</string>
+    <string name="title_account_settings">Configuración de cuenta</string>
+
+    <string name="progress_dialog">Cargando...</string>
+    <string name="recover_password">Recuperar contraseña</string>
+    <string name="recover">Recuperar</string>
+    <string name="cancel_recover">Cancelar</string>
+    <string name="email_sent">Se ha enviado un correo</string>
+    <string name="message_dialog_recovery">Ingrese correo electrónico</string>
+
+    <string name="confirm_code">Código de confirmación</string>
+    <string name="confirm_code_desc">Ingrese código enviado</string>
+    <string name="accept">Aceptar</string>
+    <string name="passed">Código verificado</string>
+    <string name="search">Búsqueda</string>
+
+
+</resources>
