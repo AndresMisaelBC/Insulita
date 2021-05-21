@@ -22,4 +22,6 @@
     <style name="Theme.INSULITA_PANTALLAS.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.INSULITA_PANTALLAS.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
 </resources>

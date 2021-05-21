@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.telephony.SmsManager;
@@ -42,6 +43,11 @@ public class Mensajeria extends AppCompatActivity
 
             }
         });
+    }
+    public void SiguienteCalif (View view)
+    {
+        Intent siguienteC = new Intent(this,CalificacionEmpleado.class );
+        startActivity(siguienteC);
     }
 }
 

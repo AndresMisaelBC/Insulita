@@ -3,7 +3,7 @@
     package="com.example.insulita_pantallas">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -12,13 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.INSULITA_PANTALLAS">
-        <activity android:name=".Mensajeria"></activity>
+        <activity android:name=".CalificacionEmpleado"></activity>
+        <activity android:name=".Mensajeria" />
         <activity android:name=".DosPasos" />
         <activity android:name=".Registro" />
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
