@@ -34,7 +34,19 @@
         <p>En caso de usar lápiz se debe guardar con tapa y sin aguja.</p>
     </p>
     </string>
+    <string name="text_Information2">
+    <p align="justify">
+        Por cualquier duda consulte con nuestros empleados de atencion al cliente (presione el boton de abajo)
+    </p>
+    </string>
+    <string name="button_atentiontext">Atención</string>
 
+    <string name="text_hintmess">Mensaje</string>
+    <string name="text_phone2">Numero Celular</string>
+    <string name="text_sc">Contactos de servicio al cliente</string>
+    <string name="text_calif">Calificar</string>
+    <string name="text_send2">Enviar</string>
+    <string name="text_rating">¿Cuál es tu calificación para este empleado?</string>
 
     <string name="text_home">Últimos registros</string>
     <string name="text_settings">Configuración</string>
@@ -149,7 +161,8 @@
     <string name="passed">Código verificado</string>
     <string name="search">Búsqueda</string>
 
-    <string name="BotonContacto">BotonContacto</string>
+    <string name="BotonContacto">Boton Contacto</string>
+
 
 
 </resources>

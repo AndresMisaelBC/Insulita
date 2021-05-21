@@ -15,14 +15,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.302" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="SiguienteAtencion"
-        android:text="Atencion"
+        android:text="@string/button_atentiontext"
         app:backgroundTint="#5E1919"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,7 @@
         android:id="@+id/textView4"
         android:layout_width="351dp"
         android:layout_height="119dp"
-        android:text="Por cualquier duda consulte con nuestros empleados de atencion al cliente (presione el boton de abajo)"
+        android:text="@string/text_Information2"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

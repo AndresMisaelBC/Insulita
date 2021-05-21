@@ -10,7 +10,7 @@
         android:id="@+id/textView8"
         android:layout_width="350dp"
         android:layout_height="55dp"
-        android:text="¿Cual es tu calificacion para este empleado?"
+        android:text="@string/text_rating"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

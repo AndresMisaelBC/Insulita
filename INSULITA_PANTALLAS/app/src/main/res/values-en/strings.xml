@@ -102,4 +102,12 @@
     <string name="search">Search</string>
     <string name="text_Information">The insulin must be storaged to a temperature from 2 to 8°C. Is important to remember the insulin NEVER has to be frozen.</string>
     <string name="BotonContacto">ContactButton</string>
+    <string name="text_Information2">If you have any doubt check them out with our employees of customer service</string>
+    <string name="button_atentiontext">Atention</string>
+    <string name="text_hintmess">Message</string>
+    <string name="text_phone2">Number</string>
+    <string name="text_sc">Customer service employees</string>
+    <string name="text_calif">Rate</string>
+    <string name="text_send2">Send</string>
+    <string name="text_rating">Rate the employee</string>
 </resources>
