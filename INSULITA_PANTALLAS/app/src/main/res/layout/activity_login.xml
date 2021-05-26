@@ -57,17 +57,6 @@
             android:paddingLeft="5dp" />
 
         <Button
-            android:id="@+id/btn_ir_recuperar_contrasena"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_forgot_password"
-            android:background="@android:color/transparent"
-            android:textColor="@android:color/darker_gray"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="0dp"
-            />
-
-        <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="45dp"
@@ -75,7 +64,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginRight="15dp"
             android:background="#0E243A"
-            android:onClick="SiguienteLogin"
+            android:onClick="IniciarSesion"
             android:text="@string/btn_login"
             android:textColor="#FFF"
             android:textSize="18sp"
