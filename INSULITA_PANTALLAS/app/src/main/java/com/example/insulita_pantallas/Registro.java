@@ -51,7 +51,7 @@ public class Registro extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
 
 
-                            Toast.makeText(getApplicationContext(), "usuario creado", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), R.string.Toast1, Toast.LENGTH_SHORT).show();
                             FirebaseUser user = mAuth.getCurrentUser();
 
                             Intent siguienteRaMain = new Intent(getApplicationContext(), Login.class);
@@ -60,12 +60,12 @@ public class Registro extends AppCompatActivity {
                         } else {
 
 
-                            Toast.makeText(getApplicationContext(), "Fallo la autentificacion.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), R.string.Toast2, Toast.LENGTH_SHORT).show();
 
                         }
                     });
         } else {
-            Toast.makeText(getApplicationContext(), "las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), R.string.Toast3, Toast.LENGTH_SHORT).show();
         }
 
     }

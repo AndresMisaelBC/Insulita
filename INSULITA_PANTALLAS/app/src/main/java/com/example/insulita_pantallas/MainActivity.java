@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     String temp = snapshot.child("Temperatura").getValue().toString();
                     String hum = snapshot.child("Humedad").getValue().toString();
 
-                    mtempview.setText("La temperatura del cuarto es de: " + temp + " C");
+                    mtempview.setText("La temperatura del cuarto es de: " + temp + " °C");
                     mhumview.setText("La humedad del cuarto es de: " + hum);
 
                 }

@@ -110,4 +110,10 @@
     <string name="text_calif">Rate</string>
     <string name="text_send2">Send</string>
     <string name="text_rating">Rate the employee</string>
+    <string name="Toast1">User Created</string>
+    <string name="Toast2">Authentication failed</string>
+    <string name="Toast4">Authentication failed</string>
+    <string name="Toast3">"Incorrect  Email or Password. "</string>
+    <string name="Text_Temp">"The room temperature is: "</string>
+    <string name="Text_Hum">The room humidity is:</string>
 </resources>

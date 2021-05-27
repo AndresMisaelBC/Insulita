@@ -60,7 +60,7 @@ public class Login extends AppCompatActivity
                         } else {
                             // If sign in fails, display a message to the user.
 
-                            Toast.makeText(getApplicationContext(), "Authentication failed.",
+                            Toast.makeText(getApplicationContext(), R.string.Toast4,
                                     Toast.LENGTH_SHORT).show();
                            // updateUI(null);
                         }

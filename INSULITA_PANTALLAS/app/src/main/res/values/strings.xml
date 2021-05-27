@@ -163,6 +163,14 @@
 
     <string name="BotonContacto">Boton Contacto</string>
 
+    <string name="Toast1">Usuario Creado</string>
+    <string name="Toast2">Error de autentificación</string>
+    <string name="Toast3">Las credenciales no coinciden</string>
+    <string name="Toast4">Error de autentificación</string>
 
+
+
+    <string name="Text_Temp">La temperatura del cuarto es de:</string>
+    <string name="Text_Hum">La humedad del cuarto es de:</string>
 
 </resources>
