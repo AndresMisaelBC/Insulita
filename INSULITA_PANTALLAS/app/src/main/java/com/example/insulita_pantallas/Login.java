@@ -21,7 +21,6 @@ public class Login extends AppCompatActivity
 
     private EditText edtEmail;
     private EditText edtPassword;
-
     private FirebaseAuth mAuth;
 
     Button login;
@@ -46,49 +45,42 @@ public class Login extends AppCompatActivity
 
     public void IniciarSesion(View v)
     {
-        mAuth.signInWithEmailAndPassword(edtEmail.getText().toString(), edtPassword.getText().toString())
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
 
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            Intent siguienteRaMain = new Intent(getApplicationContext(), MainActivity.class);
-                            startActivity(siguienteRaMain);
-                           // updateUI(user);
-                        } else {
-                            // If sign in fails, display a message to the user.
+        if(!edtEmail.getText().toString().isEmpty() && !edtPassword.getText().toString().isEmpty()) {
+            mAuth.signInWithEmailAndPassword(edtEmail.getText().toString(), edtPassword.getText().toString())
+                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
 
-                            Toast.makeText(getApplicationContext(), R.string.Toast4,
-                                    Toast.LENGTH_SHORT).show();
-                           // updateUI(null);
+
+                                FirebaseUser user = mAuth.getCurrentUser();
+                                Intent siguienteRaMain = new Intent(getApplicationContext(), MainActivity.class);
+                                startActivity(siguienteRaMain);
+
+                            } else {
+
+
+                                Toast.makeText(getApplicationContext(), R.string.Toast4,
+                                        Toast.LENGTH_SHORT).show();
+
+                            }
                         }
-                    }
-                });
+                    });
+
+        }else
+        {
+            Toast.makeText(getApplicationContext(), R.string.Toast3, Toast.LENGTH_SHORT).show();
+        }
     }
 
 
-    public void SiguienteLogin(View view)
-    {
-        Intent siguiente = new Intent(this,MainActivity.class);
-        startActivity(siguiente);
 
-    }
     public void SiguienteParaRegistro(View view)
     {
         Intent siguienteR = new Intent(this,Registro.class);
         startActivity(siguienteR);
 
     }
-
-    //public void IrIniciar(View view)
-    //{
-    //Intent i = new Intent(this, MainActivity.class);
-    //startActivity(i);
-
-    //}
-
-
 
 }

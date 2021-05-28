@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">INSULITA_PANTALLAS</string>
+    <string name="app_name">Insulita</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 
@@ -19,7 +19,7 @@
     <string name="menu_connections">Calendario</string>
     <string name="menu_specs">Ficha técnica</string>
     <string name="menu_account">Cuenta</string>
-    <string name="menu_settings">Configuración</string>
+    <string name="menu_settings">Ayuda</string>
     <string name="menu_policy">Política de privacidad</string>
     <string name="menu_contact">Contáctanos</string>
     <string name="menu_logout">Cerrar sesión</string>
@@ -70,7 +70,7 @@
     <string name="btn_register">Regístrarse</string>
 
 
-    <string name="parameters_sensor" translatable="false">Sensor</string>
+    <string name="parameters_sensor" translatable="false">Humedad</string>
     <string name="unit_temp">Temperatura</string>
     <string name="values_hour">Hora</string>
     <string name="text_sensor">Estado de Insulina</string>
@@ -170,7 +170,9 @@
 
 
 
-    <string name="Text_Temp">La temperatura del cuarto es de:</string>
-    <string name="Text_Hum">La humedad del cuarto es de:</string>
+    <string name="Text_Temp">Temperatura</string>
+    <string name="Text_Hum">Humedad</string>
+    <string name="Text_INSU">¿Cómo gestionar la insulina?</string>
+
 
 </resources>

@@ -44,27 +44,34 @@ public class Registro extends AppCompatActivity {
 
     public void RegistrarUsuario(View v) {
 
-        if (edt_password.getText().toString().equals(edt_confirm_password.getText().toString())) {
-            mAuth.createUserWithEmailAndPassword(edt_email.getText().toString(), edt_password.getText().toString())
-                    .addOnCompleteListener(this, task -> {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
+        if (!edt_email.getText().toString().isEmpty() &&  !edt_password.getText().toString().isEmpty()) {
+            if (edt_password.getText().toString().equals(edt_confirm_password.getText().toString())) {
+
+                mAuth.createUserWithEmailAndPassword(edt_email.getText().toString(), edt_password.getText().toString())
+                        .addOnCompleteListener(this, task -> {
+                            if (task.isSuccessful()) {
+                                // Sign in success, update UI with the signed-in user's information
 
 
-                            Toast.makeText(getApplicationContext(), R.string.Toast1, Toast.LENGTH_SHORT).show();
-                            FirebaseUser user = mAuth.getCurrentUser();
+                                Toast.makeText(getApplicationContext(), R.string.Toast1, Toast.LENGTH_SHORT).show();
+                                FirebaseUser user = mAuth.getCurrentUser();
 
-                            Intent siguienteRaMain = new Intent(getApplicationContext(), Login.class);
-                            startActivity(siguienteRaMain);
+                                Intent siguienteRaMain = new Intent(getApplicationContext(), Login.class);
+                                startActivity(siguienteRaMain);
 
-                        } else {
+                            } else {
 
 
-                            Toast.makeText(getApplicationContext(), R.string.Toast2, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), R.string.Toast2, Toast.LENGTH_SHORT).show();
 
-                        }
-                    });
-        } else {
+                            }
+
+                        });
+            } else {
+                Toast.makeText(getApplicationContext(), R.string.Toast3, Toast.LENGTH_SHORT).show();
+            }
+        }else
+        {
             Toast.makeText(getApplicationContext(), R.string.Toast3, Toast.LENGTH_SHORT).show();
         }
 

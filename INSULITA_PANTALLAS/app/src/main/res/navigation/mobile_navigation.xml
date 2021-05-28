@@ -62,4 +62,9 @@
         android:name="com.example.insulita_pantallas.Registro"
         android:label="activity_registro"
         tools:layout="@layout/activity_registro" />
+    <activity
+        android:id="@+id/mensajeria"
+        android:name="com.example.insulita_pantallas.Mensajeria"
+        android:label="activity_mensajeria"
+        tools:layout="@layout/activity_mensajeria" />
 </navigation>

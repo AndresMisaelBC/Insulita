@@ -15,20 +15,24 @@ public class ActivitySplash extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        Intent intent= new Intent(this, MainActivity.class);
-        startActivity(intent);
-      finish();
+        setContentView(R.layout.activity_splash);
+        // mProgress = (ProgressBar) findViewById(R.id.loading);
+        //Intent intent= new Intent(ActivitySplash.this, Login.class);
+        //startActivity(intent);
+        TimerTask Tarea = new TimerTask() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(ActivitySplash.this, Login.class );
+                startActivity(intent);
+                finish();
+            }
+        };
+
+        // finish();
+        Timer tiempo = new Timer();
+        tiempo.schedule(Tarea, 3000);
 
 
-//        TimerTask tarea = new TimerTask() {
-//            @Override
-//            public void run() {
-//                Intent intent = new Intent(ActivitySplash.this, Registro.class);
-//                startActivity(intent);
-//                finish();
-//            }
-//        };
-//        Timer tiempo = new Timer();
-//        tiempo.schedule(tarea,5000);
     }
+
 }

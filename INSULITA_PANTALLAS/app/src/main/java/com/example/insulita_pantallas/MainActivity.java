@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -68,8 +69,10 @@ public class MainActivity extends AppCompatActivity {
                     String temp = snapshot.child("Temperatura").getValue().toString();
                     String hum = snapshot.child("Humedad").getValue().toString();
 
-                    mtempview.setText("La temperatura del cuarto es de: " + temp + " °C");
-                    mhumview.setText("La humedad del cuarto es de: " + hum);
+                    mtempview.setText(" " + temp + " °C");
+                    mhumview.setText(" " + hum);
+
+
 
                 }
             }
