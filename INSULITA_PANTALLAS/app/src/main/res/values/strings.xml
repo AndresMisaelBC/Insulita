@@ -18,7 +18,7 @@
     <string name="menu_sensors">Sensores</string>
     <string name="menu_connections">Calendario</string>
     <string name="menu_specs">Ficha técnica</string>
-    <string name="menu_account">Cuenta</string>
+    <string name="menu_account">Políticas de privacidad</string>
     <string name="menu_settings">Ayuda</string>
     <string name="menu_policy">Política de privacidad</string>
     <string name="menu_contact">Contáctanos</string>
@@ -164,6 +164,7 @@
     <string name="BotonContacto">Boton Contacto</string>
 
     <string name="Toast1">Usuario Creado</string>
+    <string name="Toastcre">Bienvenido</string>
     <string name="Toast2">Error de autentificación</string>
     <string name="Toast3">Las credenciales no coinciden</string>
     <string name="Toast4">Error de autentificación</string>
@@ -173,6 +174,15 @@
     <string name="Text_Temp">Temperatura</string>
     <string name="Text_Hum">Humedad</string>
     <string name="Text_INSU">¿Cómo gestionar la insulina?</string>
-
+    <string name="Titulopoli" align = "center">Políticas de privacidad</string>
+    <string name="poli"><p align= "justify"> Al aceptar usar el Servicio de Insulita, </p>
+        que incluye todos los productos, las funciones, los servicios, las tecnologías y el software que
+        ofrecemos para cumplir la misión de Insulita. El Servicio se compone de los siguientes aspectos:<p>
+                              Fomentar un ambiente positivo y seguro: Desarrollamos y usamos
+            herramientas, y ofrecemos recursos a los miembros de nuestra comunidad que contribuyen a que
+            estos vivan experiencias positivas e inclusivas, incluso cuando creemos que pueden necesitar
+            ayuda. También contamos con equipos y sistemas cuyo trabajo es combatir el abuso y las violaciones de nuestras
+        Condiciones y políticas, así como combatir comportamientos perjudiciales.
+                            </p></string>
 
 </resources>

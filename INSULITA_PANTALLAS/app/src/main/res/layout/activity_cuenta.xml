@@ -8,163 +8,30 @@
 
 
     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="337dp"
+        android:layout_height="386dp"
+        android:text="@string/poli"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitulo3"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
         android:id="@+id/tvtitulo3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cuenta"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:text="@string/Titulopoli"
         android:textColor="#3C3939"
-        android:textSize="66sp"
+        android:textSize="33sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
-
-    <ScrollView
-        android:id="@+id/scrollView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.997">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="20dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textViewCorreoLbl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="28dp"
-                    android:text="@string/email"
-                    android:textSize="18sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.167"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewNombre" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView6"
-                        android:layout_width="22dp"
-                        android:layout_height="26dp"
-
-                        android:layout_marginTop="12dp"
-                        android:layout_marginBottom="39dp"
-                        app:layout_constraintBottom_toTopOf="@+id/textViewPhoneLbl"
-                        app:layout_constraintEnd_toStartOf="@+id/textViewCorreo"
-                        app:layout_constraintHorizontal_bias="0.333"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textViewCorreoLbl"
-                        app:layout_constraintVertical_bias="1.0" />
-
-                    <TextView
-                        android:id="@+id/textViewCorreo"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="hhhhhhhhhhhh"
-                        android:textColor="#020202"
-                        android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.307"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textViewCorreoLbl" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginBottom="20dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textViewPassLbl"
-                    android:layout_width="94dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="28dp"
-                    android:text="@string/pswd"
-                    android:textSize="18sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.167"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewPhone" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView6"
-                        android:layout_width="22dp"
-                        android:layout_height="26dp"
-
-                        android:layout_marginTop="12dp"
-                        android:layout_marginBottom="39dp"
-                        app:layout_constraintBottom_toTopOf="@+id/textViewPhoneLbl"
-                        app:layout_constraintEnd_toStartOf="@+id/textViewCorreo"
-                        app:layout_constraintHorizontal_bias="0.333"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textViewCorreoLbl"
-                        app:layout_constraintVertical_bias="1.0" />
-
-                    <TextView
-                        android:id="@+id/textViewCorreo"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="hhhhhhhhhhhh"
-                        android:textColor="#020202"
-                        android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.307"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textViewCorreoLbl" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="127dp"
-        android:layout_height="121dp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvtitulo3"
-        app:layout_constraintVertical_bias="0.454"
-        app:srcCompat="@drawable/icon_account" />
+        app:layout_constraintVertical_bias="0.087" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

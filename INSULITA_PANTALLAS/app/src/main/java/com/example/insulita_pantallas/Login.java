@@ -56,6 +56,7 @@ public class Login extends AppCompatActivity
 
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 Intent siguienteRaMain = new Intent(getApplicationContext(), MainActivity.class);
+                                Toast.makeText(getApplicationContext(), R.string.Toastcre, Toast.LENGTH_SHORT).show();
                                 startActivity(siguienteRaMain);
 
                             } else {
@@ -72,6 +73,7 @@ public class Login extends AppCompatActivity
         {
             Toast.makeText(getApplicationContext(), R.string.Toast3, Toast.LENGTH_SHORT).show();
         }
+
     }
 
 

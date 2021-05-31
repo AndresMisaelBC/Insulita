@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     //private Button fab;
     //private String url;
+
     private TextView mtempview;
     private TextView mhumview;
     private TextView mdistview;

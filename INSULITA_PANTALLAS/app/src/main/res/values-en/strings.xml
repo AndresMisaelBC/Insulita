@@ -10,7 +10,7 @@
     <string name="menu_sensors">Humidity</string>
     <string name="menu_connections">Calendar</string>
     <string name="menu_specs">Data sheet</string>
-    <string name="menu_account">Account</string>
+    <string name="menu_account">Privacy Policies</string>
     <string name="menu_settings">Ayuda</string>
     <string name="menu_policy">Terms</string>
     <string name="menu_contact">Contact</string>
@@ -117,4 +117,14 @@
     <string name="Text_Temp">Temperature</string>
     <string name="Text_Hum">Humidity</string>
     <string name="Text_INSU">How to manage insulin?</string>
+    <string name="poli"><p align= "justify">By agreeing to use the Insulita Service, </p> which includes all the products,
+    functions, services, technologies and software that we offer to fulfill the mission of Insulita. The Service consists
+    of the following aspects: <p>
+    Fostering a positive and safe environment: We develop and use
+    tools, and we offer resources to our community members that help them have positive and inclusive
+    experiences, even when we think they may need help. We also have teams and systems whose job it
+    is to combat abuse and violations of our
+    Conditions and policies, as well as combating harmful behaviors. </p></string>
+    <string name="Titulopoli">Privacy Policies</string>
+    <string name="Toastcre">Welcome</string>
 </resources>
