@@ -168,6 +168,8 @@
     <string name="Toast2">Error de autentificación</string>
     <string name="Toast3">Las credenciales no coinciden</string>
     <string name="Toast4">Error de autentificación</string>
+    <string name="ToastSMG">Mensaje enviado</string>
+    <string name="ToastCALIF">Usted a votado con</string>
 
 
 

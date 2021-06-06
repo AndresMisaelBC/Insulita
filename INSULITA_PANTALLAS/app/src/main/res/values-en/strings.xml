@@ -127,4 +127,6 @@
     Conditions and policies, as well as combating harmful behaviors. </p></string>
     <string name="Titulopoli">Privacy Policies</string>
     <string name="Toastcre">Welcome</string>
+    <string name="ToastSMG">message sent</string>
+    <string name="ToastCALIF">You have rated with</string>
 </resources>

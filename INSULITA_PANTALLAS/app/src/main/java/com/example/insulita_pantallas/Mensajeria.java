@@ -39,7 +39,7 @@ public class Mensajeria extends AppCompatActivity
 
                 SmsManager smsManager =  SmsManager.getDefault();
                 smsManager.sendTextMessage(etCel.getText().toString(), null, etMsj.getText().toString(), null, null);
-                Toast.makeText(Mensajeria.this, "MSJ ENVIADO", Toast.LENGTH_LONG).show();
+                Toast.makeText(Mensajeria.this, R.string.ToastSMG, Toast.LENGTH_LONG).show();
 
             }
         });

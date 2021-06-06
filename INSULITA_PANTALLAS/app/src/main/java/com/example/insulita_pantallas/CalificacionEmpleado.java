@@ -23,7 +23,7 @@ private RatingBar ratingbar;
         ratingbar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
-                Toast.makeText(CalificacionEmpleado.this," Usted a votado con " +v,Toast.LENGTH_LONG).show();
+                Toast.makeText(CalificacionEmpleado.this,":" + v,Toast.LENGTH_LONG).show();
             }
         });
     }
